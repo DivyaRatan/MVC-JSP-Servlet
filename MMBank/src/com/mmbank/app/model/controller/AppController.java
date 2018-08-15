@@ -37,10 +37,8 @@ public class AppController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String action = request.getServletPath();
 		HttpSession session = request.getSession();
-		loginDetails.put("Nishad", "Nishad");
+		loginDetails.put("Div", "rat");
 		loginDetails.put("admin", "admin");
-		loginDetails.put("Sayali", "Sayali");
-		loginDetails.put("Drishti", "Drishti");
 		switch (action) {
 		case "/login.app":
 	
