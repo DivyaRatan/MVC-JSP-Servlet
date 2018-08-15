@@ -6,14 +6,6 @@ import com.moneymoney.framework.account.dao.DAO;
 import com.moneymoney.framework.account.pojo.BankAccount;
 import com.moneymoney.framework.account.pojo.Customer;
 
-/**
- * @author Satyen Singh
- * @author Nishad Mehendale
- *
- *This is class for maintaining the list of all unique account objects.
- *
- *This was created from the warm heart. The Developers are From capgemini.
- */
 public class DAOImpl implements DAO {
 	private static ArrayList<BankAccount> bankAccountSet;
 	private static ArrayList<Customer> customerList;
